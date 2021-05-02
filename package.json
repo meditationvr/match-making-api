@@ -1,0 +1,36 @@
+{
+  "name": "match-making-api",
+  "version": "1.0.0",
+  "description": "Websocket API that supports Match Making for the Meditation VR game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon --legacy-watch ./src ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meditationvr/match-making-api.git"
+  },
+  "keywords": [
+    "meditation",
+    "vr",
+    "websockets"
+  ],
+  "author": "Daniel Marchena Parreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meditationvr/match-making-api/issues"
+  },
+  "homepage": "https://github.com/meditationvr/match-making-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",  
+    "cassandra-driver": "^4.0.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "kafka-node": "^4.0.2",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.2.0"
+  }
+}
