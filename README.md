@@ -1,3 +1,3 @@
 # Match Making API
 
-* To set this project follow the instructions [here](https://github.com/meditationvr/compose).
+* To run this project follow the instructions [here](https://github.com/meditationvr/compose).
